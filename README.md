@@ -33,9 +33,12 @@
 | 프로젝트 | 내용 | 상태 |
 |---|---|---|
 | [PLUTUS 매크로 대시보드](https://macro.plutus.ai.kr/) | 금융·경제 데이터 시각화와 갱신·기준일 관리 개선 | 개발 및 운영 개선 |
+| [PLUTUS 매매 분석](https://trade.plutus.ai.kr/) | 조건검색식·종가베팅 후보·거래대금과 수급·전략 설정 화면 | 개발 및 운영 개선 |
 | [MCP 보고서 연동](https://plutus.ai.kr/) | AI 도구·Report API·WordPress 간 보고서 및 콘텐츠 전달 | 연동 구현 및 개선 |
+| [TokenWatch](https://tokenwatch.aject.co.kr/) | AI 모델 API 가격·월 구독료·무료 이용·성능 비교 | 개발 및 운영 |
 | [AJECT](https://aject.co.kr/) | 웹 서비스, 문의·이메일 알림, 배포와 운영 | 운영 |
-| StarManager 및 트레이딩 대시보드 | 모바일·서버 연동과 금융 데이터 활용 | 개발 중 |
+| [AI 음악·영상 콘텐츠](https://www.youtube.com/watch?v=wcWK-Up_-Wg) | 생성형 AI를 활용한 음악·영상 기획과 제작, AI CM송 공개 | 프로젝트 수행 |
+| StarManager | 모바일·서버 연동 및 일정·미션 서비스 | 개발 중 |
 
 ## 경력과 학력
 
@@ -43,6 +46,6 @@
 - 고려대학교 컴퓨터학 학사 · 아주대학교 정보통신대학원 IoT 전공 석사
 - Hive·SQL 사내 강사 · 2016–2018
 
-[홈페이지](https://ifreeda7.github.io/) · [상세 경력 보기](resume.md) · [이메일](mailto:plutusj@kakao.com) · [AJECT](https://aject.co.kr/)
+[상세 경력 보기](resume.md) · [이메일](mailto:plutusj@kakao.com) · [AJECT](https://aject.co.kr/)
 
 회사 프로젝트는 본인이 수행한 역할을 텍스트로 소개합니다. 사내 소스코드와 내부 데이터는 포함하지 않습니다.
