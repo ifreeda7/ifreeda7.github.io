@@ -48,4 +48,6 @@
 
 [상세 경력 보기](resume.md) · [이메일](mailto:plutusj@kakao.com) · [AJECT](https://aject.co.kr/)
 
+[데이터 플랫폼 구축 참조 아키텍처](https://plutus.ai.kr/2026/10/22/aject-data-platform-architecture-90-days/) — 수집·ETL부터 품질·거버넌스까지의 설계 관점
+
 회사 프로젝트는 본인이 수행한 역할을 텍스트로 소개합니다. 사내 소스코드와 내부 데이터는 포함하지 않습니다.
