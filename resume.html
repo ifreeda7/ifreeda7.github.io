@@ -13,8 +13,9 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px soli
 .topbar{background:var(--dark);color:#fff}.topbar-inner{max-width:1220px;margin:auto;padding:17px 30px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{font-weight:800;letter-spacing:-.04em;color:#fff;text-decoration:none}.topbar nav{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
 .topbar nav a{color:#d7e9dd;text-decoration:none;font-size:12px;border:1px solid #597168;padding:8px 12px}.topbar nav a:last-child{background:#d7f18d;color:var(--dark);border-color:#d7f18d;font-weight:800}
-.hero{background:var(--dark);color:white;border-top:1px solid #395158}.hero-inner{max-width:1220px;margin:auto;padding:55px 30px 65px}
+.hero{background:var(--dark);color:white;border-top:1px solid #395158}.hero-inner{max-width:1220px;margin:auto;padding:44px 30px 50px;display:flex;align-items:center;justify-content:space-between;gap:40px}
 .eyebrow{color:var(--mint);font:11px/1.5 'DM Mono',monospace;letter-spacing:.16em}.hero h1{font-size:clamp(38px,5vw,62px);letter-spacing:-.07em;line-height:1.2;margin:14px 0}.hero p{max-width:760px;color:#c9d8d0;margin:0}
+.hero-photo{width:148px;height:190px;object-fit:cover;object-position:center top;border-radius:6px;border:3px solid #d5e8da;box-shadow:0 12px 38px #0004;flex:none}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}.hero-actions a{display:inline-block;padding:10px 15px;border:1px solid #adc6b7;color:white;text-decoration:none;font-size:13px;font-weight:700}.hero-actions a:first-child{background:#d7f18d;border-color:#d7f18d;color:var(--dark)}.hero-actions a:hover{transform:translateY(-2px)}
 .layout{max-width:1220px;margin:auto;padding:48px 30px 100px;display:grid;grid-template-columns:210px minmax(0,1fr);gap:55px}
 .sidebar{position:sticky;top:25px;height:max-content;border-top:3px solid var(--accent);padding-top:17px}
 .sidebar strong{font:11px 'DM Mono',monospace;letter-spacing:.12em;color:var(--muted)}.sidebar a{display:block;color:#37544b;text-decoration:none;font-size:12px;padding:9px 0;border-bottom:1px solid var(--line)}.sidebar a:hover{color:var(--accent)}
@@ -27,10 +28,11 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px soli
 .resume em{font-size:12px;color:var(--muted)}.resume table{width:100%;border-collapse:collapse;font-size:13px}.resume th,.resume td{border-bottom:1px solid var(--line);padding:10px;text-align:left}
 .resume blockquote{border-left:3px solid var(--mint);margin:20px 0;padding-left:18px;color:var(--muted)}.endnote{max-width:1220px;margin:-65px auto 50px;padding:0 30px;color:var(--muted);font-size:12px}
 @media(max-width:850px){.layout{display:block;padding:25px 15px 75px}.sidebar{position:static;display:flex;gap:10px;overflow-x:auto;white-space:nowrap;border:0;margin-bottom:15px;padding:0}.sidebar strong{display:none}.sidebar a{border:1px solid var(--line);padding:7px 11px}.resume{padding:30px 24px}.hero-inner{padding:40px 22px 46px}.topbar-inner{padding:13px 18px}.resume h2{font-size:23px}.resume h3{font-size:18px}.endnote{margin:-50px auto 35px}}
+@media(max-width:530px){.hero-inner{align-items:flex-start;gap:15px}.hero-photo{width:82px;height:106px;border-width:2px}.hero h1{font-size:30px}.eyebrow{font-size:9px;letter-spacing:.08em}.hero-actions a{font-size:12px;padding:8px 10px}.topbar nav a{font-size:11px;padding:6px 8px}.topbar nav a:nth-child(2){display:none}}
 @media print{.topbar,.sidebar,.hero,.endnote{display:none}.layout{display:block;padding:0}.resume{border:0;box-shadow:none;padding:0}.resume>h1.document-title{display:block}.resume h2{break-after:avoid}.resume h3{break-after:avoid}.resume img{max-height:260px;object-fit:contain;object-position:left}}
 </style></head><body>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="/">JONGJU.LIM</a><nav aria-label="이력서 링크"><a href="/">포트폴리오</a><a href="resume.md">Markdown 원문</a><a href="resume.pdf" download>PDF 다운로드 ↓</a></nav></div></header>
-<div class="hero"><div class="hero-inner"><span class="eyebrow">DATA ENGINEERING / PRODUCT DEVELOPMENT / LEADERSHIP</span><h1>임종주 · 상세 이력서</h1><p>데이터 수집과 ETL부터 실시간 처리, 의사결정 서비스 개발과 프로젝트 리딩까지 이어온 경험을 정리했습니다.</p></div></div>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="/">JONGJU.LIM</a><nav aria-label="이력서 링크"><a href="/#work">프로젝트 포트폴리오</a><a href="resume.md">Markdown 원문</a><a href="resume.pdf" download>PDF 다운로드 ↓</a></nav></div></header>
+<div class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">DATA ENGINEERING / PRODUCT DEVELOPMENT / LEADERSHIP</span><h1>임종주 · 상세 이력서</h1><p>데이터 수집과 ETL부터 실시간 처리, 의사결정 서비스 개발과 프로젝트 리딩까지 이어온 경험을 정리했습니다.</p><div class="hero-actions"><a href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오 보기 ↗</a><a href="resume.pdf" download>PDF 이력서 다운로드 ↓</a></div></div><img class="hero-photo" src="assets/jongju-lim-portrait.jpg" alt="임종주 프로필 사진" width="229" height="294"></div></div>
 <div class="layout"><aside class="sidebar" aria-label="섹션 바로가기"><strong>CONTENTS</strong>
 <a href="#경력">경력</a><a href="#핵심-역량">핵심 역량</a><a href="#리더십과-협업">리더십</a><a href="#주요-프로젝트">주요 프로젝트</a><a href="#개인-프로젝트">개인 프로젝트</a><a href="#교육과-학력">교육과 학력</a><a href="#연락">연락</a>
 </aside><main class="resume" id="main"><h1 class="document-title" id="임종주-데이터-엔지니어">임종주 데이터 엔지니어</h1>
@@ -42,6 +44,10 @@ MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 문제
 Hive·SQL 사내 교육 경험을 보유하고 있습니다. 육군 장교 복무 경험을
 바탕으로 책임과 협업을 중시하며, 기술을 직접 구현하면서 팀의 실행을
 이끄는 리더 역할에 강점이 있습니다.</p>
+<p><a href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오와 화면
+보기 →</a> · <a href="https://ifreeda7.github.io/resume.html">웹
+이력서</a> · <a href="https://ifreeda7.github.io/resume.pdf">PDF
+이력서</a></p>
 <h2 id="경력">경력</h2>
 <p><strong>엔씨소프트 | 2009.10.19–2024.12.15 | 15년 1개월</strong></p>
 <p>CTO 산하 데이터플랫폼실 데이터서비스개발팀 및
