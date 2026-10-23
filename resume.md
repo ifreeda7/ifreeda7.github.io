@@ -63,6 +63,10 @@ MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 사용
 
 주요 기술: DW/DM · ETL · Cognos · Tableau
 
+![글로벌 데이터 플랫폼 경력 설명용 재구성 시안](https://ifreeda7.github.io/assets/global-data-platform-concept.jpg)
+
+*경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 화면 구성과 상태 표시는 예시입니다.*
+
 ### NOW — 글로벌 실시간 인게임 데이터 모니터링
 
 2019–2024 | PL · 데이터 설계 및 메인 개발 · 기획 참여
@@ -76,6 +80,10 @@ MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 사용
 **성과:** 실시간 게임 로그를 운영 지표와 연결해 유관 부서가 현황을 확인하고 대응할 수 있는 환경을 제공했습니다.
 
 주요 기술: Spark · Kafka · Druid · React · Next.js
+
+![NOW 글로벌 실시간 게임 데이터 모니터링 경력 설명용 재구성 시안](https://ifreeda7.github.io/assets/now-concept.jpg)
+
+*경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 화면 구성과 상태 표시는 예시입니다.*
 
 ### MONKEY — 장애 모니터링 자동화 플랫폼
 

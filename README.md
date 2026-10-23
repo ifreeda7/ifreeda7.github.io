@@ -20,7 +20,11 @@
 
 ### 프로젝트 화면 시안
 
-퇴사 후 경험을 설명하기 위해 재구성한 화면입니다. **실제 사내 운영 화면이 아니며 표시된 날짜와 수치는 예시**입니다.
+퇴사 후 경험을 설명하기 위해 재구성한 화면입니다. **실제 사내 운영 화면이 아니며 화면 구성, 상태, 날짜와 수치는 예시**입니다.
+
+| 글로벌 데이터 플랫폼 | NOW · 실시간 게임 데이터 모니터링 |
+|---|---|
+| [![글로벌 데이터 플랫폼 재구성 시안](https://ifreeda7.github.io/assets/global-data-platform-concept.jpg)](https://ifreeda7.github.io/#work) | [![NOW 재구성 시안](https://ifreeda7.github.io/assets/now-concept.jpg)](https://ifreeda7.github.io/#work) |
 
 | MONKEY · 장애 모니터링 자동화 | SBoard · 경영 정보 포털 |
 |---|---|
