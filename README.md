@@ -18,6 +18,14 @@
 - **MONKEY — 장애 모니터링 자동화 플랫폼**: 데이터 적재 품질·장애 현황과 알림을 통합한 모니터링 플랫폼의 기획·개발·운영.
 - **SBoard — 경영 정보 포털**: 경영 KPI 데이터 모델·API·웹 서비스 구현과 운영. 2회 대규모 개편 주도.
 
+### 프로젝트 화면 시안
+
+퇴사 후 경험을 설명하기 위해 재구성한 화면입니다. **실제 사내 운영 화면이 아니며 표시된 날짜와 수치는 예시**입니다.
+
+| MONKEY · 장애 모니터링 자동화 | SBoard · 경영 정보 포털 |
+|---|---|
+| [![MONKEY 재구성 시안](https://ifreeda7.github.io/assets/monkey-concept.jpg)](https://ifreeda7.github.io/#work) | [![SBoard 재구성 시안](https://ifreeda7.github.io/assets/sboard-concept.jpg)](https://ifreeda7.github.io/#work) |
+
 ## 기술 경험
 
 | 영역 | 기술 및 경험 |

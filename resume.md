@@ -91,6 +91,10 @@ MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 사용
 
 주요 기술: 데이터 품질 관리 · 운영 자동화 · 웹 대시보드 · SMS/Email
 
+![MONKEY 장애 모니터링 자동화 플랫폼 경력 설명용 재구성 시안](https://ifreeda7.github.io/assets/monkey-concept.jpg)
+
+*경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 날짜·수치는 예시입니다.*
+
 ### SBoard — 경영 정보 포털
 
 2016–2024 | 서비스 기획 · 데이터 설계 · 풀스택 개발 및 운영
@@ -104,6 +108,10 @@ MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 사용
 **성과:** 데이터 처리부터 경영진이 이용하는 화면까지 연결하고, 2회의 대규모 개편으로 지표 체계와 사용성을 개선했습니다.
 
 주요 기술: Python · Django · React · ETL · 캐싱
+
+![SBoard 경영 정보 포털 경력 설명용 재구성 시안](https://ifreeda7.github.io/assets/sboard-concept.jpg)
+
+*경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 날짜·수치는 예시입니다.*
 
 ## 개인 프로젝트
 
