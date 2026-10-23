@@ -58,7 +58,7 @@
 - 고려대학교 컴퓨터학 학사 · 아주대학교 정보통신대학원 IoT 전공 석사
 - Hive·SQL 사내 강사 · 2016–2018
 
-[상세 경력 보기](resume.md) · [이메일](mailto:plutusj@kakao.com) · [AJECT](https://aject.co.kr/)
+[웹 이력서](https://ifreeda7.github.io/resume.html) · [PDF 이력서](https://ifreeda7.github.io/resume.pdf) · [Markdown 원문](resume.md) · [이메일](mailto:plutusj@kakao.com) · [AJECT](https://aject.co.kr/)
 
 [데이터 플랫폼 구축 참조 아키텍처](https://plutus.ai.kr/2026/10/22/aject-data-platform-architecture-90-days/) — 수집·ETL부터 품질·거버넌스까지의 설계 관점
 
