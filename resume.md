@@ -67,4 +67,4 @@ Next.js·PostgreSQL 기반 회사 웹과 문의 관리·관리자 화면·이메
 
 ## 연락
 
-[plutusj@kakao.com](mailto:plutusj@kakao.com) · [GitHub](https://github.com/ifreeda7) · [프로젝트 포트폴리오](https://ifreeda7.github.io/#work)
+[jongjulim@gmail.com](mailto:jongjulim@gmail.com) · [GitHub](https://github.com/ifreeda7) · [프로젝트 포트폴리오](https://ifreeda7.github.io/#work)

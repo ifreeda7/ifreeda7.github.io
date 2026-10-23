@@ -4,7 +4,7 @@
 
 엔씨소프트 데이터플랫폼 조직에서 15년 1개월간 데이터 수집·ETL부터 API와 웹 화면, 운영까지 연결했습니다. 사용자와 문제를 정리하고 직접 구현하는 프로젝트 리드 경험을 바탕으로 PLUTUS·TokenWatch·AJECT를 개발·운영하고 있습니다.
 
-[포트폴리오](https://ifreeda7.github.io/) · [이력서](https://ifreeda7.github.io/resume.html) · [경력기술서](https://ifreeda7.github.io/career_history.html) · [이메일](mailto:plutusj@kakao.com)
+[포트폴리오](https://ifreeda7.github.io/) · [이력서](https://ifreeda7.github.io/resume.html) · [경력기술서](https://ifreeda7.github.io/career_history.html) · [이메일](mailto:jongjulim@gmail.com)
 
 | 프로젝트 | 담당한 일 |
 |---|---|
