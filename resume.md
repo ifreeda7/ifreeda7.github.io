@@ -2,7 +2,7 @@
 
 엔씨소프트 데이터플랫폼 조직에서 15년 1개월간 데이터 수집·DW/DM·ETL과 웹 서비스 개발을 연결해 왔습니다. Python·Django API와 React·Next.js 화면을 직접 구현하고 SBoard 경영 정보 포털의 두 차례 대규모 개편을 주도했습니다. MONKEY 장애 모니터링 자동화 플랫폼의 PM·PL, NOW 글로벌 실시간 모니터링의 PL로 기획·개발·운영을 이끌었습니다. 최근에는 PLUTUS·TokenWatch·AJECT 웹 서비스와 모바일·서버 연동형 StarManager를 개발하고 있습니다. 육군 장교 복무와 사내 교육 경험을 바탕으로 직접 만드는 리더십을 발휘합니다.
 
-[프로젝트 포트폴리오와 화면 보기 →](https://ifreeda7.github.io/#work) · [웹 이력서](https://ifreeda7.github.io/resume.html) · [PDF 이력서](https://ifreeda7.github.io/resume.pdf)
+[프로젝트 포트폴리오와 화면 보기 →](https://ifreeda7.github.io/#work) · [경력기술서](https://ifreeda7.github.io/career_history.html) · [웹 이력서](https://ifreeda7.github.io/resume.html) · [PDF 이력서](https://ifreeda7.github.io/resume.pdf)
 
 ## 경력
 
