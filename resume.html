@@ -1,266 +1,110 @@
-<!doctype html>
-<html lang="ko"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="임종주 - 데이터 플랫폼과 웹·앱 서비스 개발 리더. 데이터 수집·ETL부터 Django API, React·Next.js 화면과 운영까지.">
-<title>임종주 | 상세 이력서</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#142a2c;--muted:#607671;--line:#dce6de;--paper:#f4f6f1;--accent:#1c6a57;--dark:#10232a;--mint:#c5efd0}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 'Manrope','Noto Sans KR',sans-serif;word-break:keep-all}
-a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid #e4a53a;outline-offset:3px}
-.topbar{background:var(--dark);color:#fff}.topbar-inner{max-width:1220px;margin:auto;padding:17px 30px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{font-weight:800;letter-spacing:-.04em;color:#fff;text-decoration:none}.topbar nav{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
-.topbar nav a{color:#d7e9dd;text-decoration:none;font-size:12px;border:1px solid #597168;padding:8px 12px}.topbar nav a:last-child{background:#d7f18d;color:var(--dark);border-color:#d7f18d;font-weight:800}
-.hero{background:var(--dark);color:white;border-top:1px solid #395158}.hero-inner{max-width:1220px;margin:auto;padding:44px 30px 50px;display:flex;align-items:center;justify-content:space-between;gap:40px}
-.eyebrow{color:var(--mint);font:11px/1.5 'DM Mono',monospace;letter-spacing:.16em}.hero h1{font-size:clamp(38px,5vw,62px);letter-spacing:-.07em;line-height:1.2;margin:14px 0}.hero p{max-width:760px;color:#c9d8d0;margin:0}
-.hero-photo{width:148px;height:190px;object-fit:cover;object-position:center top;border-radius:6px;border:3px solid #d5e8da;box-shadow:0 12px 38px #0004;flex:none}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}.hero-actions a{display:inline-block;padding:10px 15px;border:1px solid #adc6b7;color:white;text-decoration:none;font-size:13px;font-weight:700}.hero-actions a:first-child{background:#d7f18d;border-color:#d7f18d;color:var(--dark)}.hero-actions a:hover{transform:translateY(-2px)}
-.layout{max-width:1220px;margin:auto;padding:48px 30px 100px;display:grid;grid-template-columns:210px minmax(0,1fr);gap:55px}
-.sidebar{position:sticky;top:25px;height:max-content;border-top:3px solid var(--accent);padding-top:17px}
-.sidebar strong{font:11px 'DM Mono',monospace;letter-spacing:.12em;color:var(--muted)}.sidebar a{display:block;color:#37544b;text-decoration:none;font-size:12px;padding:9px 0;border-bottom:1px solid var(--line)}.sidebar a:hover{color:var(--accent)}
-.resume{min-width:0;background:#fff;border:1px solid var(--line);padding:52px 62px;box-shadow:0 20px 60px #153c2b0b}.resume>h1.document-title{display:none}
-.resume>p:first-of-type{font-size:16px;line-height:1.85;color:#2a4542;border-left:4px solid #8ed9a7;padding:3px 0 3px 20px;margin:0 0 40px}
-.resume h2{font-size:26px;letter-spacing:-.06em;line-height:1.35;margin:65px 0 22px;padding-top:10px;border-bottom:1px solid var(--line);padding-bottom:13px;scroll-margin-top:24px}
-.resume h2:first-of-type{margin-top:0}.resume h3{font-size:20px;letter-spacing:-.05em;line-height:1.45;margin:38px 0 12px;scroll-margin-top:24px}.resume h3+p{color:var(--muted);font-size:12px;margin-top:-5px}
-.resume p{margin:12px 0}.resume li{padding-left:4px;margin:8px 0}.resume ul{padding-left:21px}.resume strong{color:#193d36}
-.resume img{width:100%;max-width:850px;height:auto;border:1px solid var(--line);border-radius:5px;margin-top:10px;display:block}
-.resume em{font-size:12px;color:var(--muted)}.resume table{width:100%;border-collapse:collapse;font-size:13px}.resume th,.resume td{border-bottom:1px solid var(--line);padding:10px;text-align:left}
-.resume blockquote{border-left:3px solid var(--mint);margin:20px 0;padding-left:18px;color:var(--muted)}.endnote{max-width:1220px;margin:-65px auto 50px;padding:0 30px;color:var(--muted);font-size:12px}
-@media(max-width:850px){.layout{display:block;padding:25px 15px 75px}.sidebar{position:static;display:flex;gap:10px;overflow-x:auto;white-space:nowrap;border:0;margin-bottom:15px;padding:0}.sidebar strong{display:none}.sidebar a{border:1px solid var(--line);padding:7px 11px}.resume{padding:30px 24px}.hero-inner{padding:40px 22px 46px}.topbar-inner{padding:13px 18px}.resume h2{font-size:23px}.resume h3{font-size:18px}.endnote{margin:-50px auto 35px}}
-@media(max-width:530px){.hero-inner{align-items:flex-start;gap:15px}.hero-photo{width:82px;height:106px;border-width:2px}.hero h1{font-size:30px}.eyebrow{font-size:9px;letter-spacing:.08em}.hero-actions a{font-size:12px;padding:8px 10px}.topbar nav a{font-size:11px;padding:6px 8px}.topbar nav a:nth-child(2){display:none}}
-@media print{.topbar,.sidebar,.hero,.endnote{display:none}.layout{display:block;padding:0}.resume{border:0;box-shadow:none;padding:0}.resume>h1.document-title{display:block}.resume h2{break-after:avoid}.resume h3{break-after:avoid}.resume img{max-height:260px;object-fit:contain;object-position:left}}
-</style></head><body>
-<header class="topbar"><div class="topbar-inner"><a class="brand" href="/">JONGJU.LIM</a><nav aria-label="이력서 링크"><a href="/#work">프로젝트 포트폴리오</a><a href="career_history.html">경력기술서</a><a href="resume.pdf" download>이력서 PDF ↓</a></nav></div></header>
-<div class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">DATA PLATFORM / WEB &amp; APP DEVELOPMENT / PROJECT LEAD</span><h1>임종주 · 상세 이력서</h1><p>데이터 수집·ETL부터 API와 웹 화면 개발, 모바일·서버 연동, 서비스 운영과 프로젝트 리딩까지 직접 연결합니다.</p><div class="hero-actions"><a href="career_history.html">경력기술서 자세히 보기 ↗</a><a href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오 ↗</a><a href="resume.pdf" download>PDF 이력서 ↓</a></div></div><img class="hero-photo" src="assets/jongju-lim-portrait.jpg" alt="임종주 프로필 사진" width="229" height="294"></div></div>
-<div class="layout"><aside class="sidebar" aria-label="섹션 바로가기"><strong>CONTENTS</strong>
-<a href="#경력">경력</a><a href="#핵심-역량">핵심 역량</a><a href="#리더십과-협업">리더십</a><a href="#주요-프로젝트">주요 프로젝트</a><a href="#개인-프로젝트">개인 프로젝트</a><a href="#교육과-학력">교육과 학력</a><a href="#연락">연락</a>
-</aside><main class="resume" id="main"><h1 class="document-title" id="임종주--데이터-플랫폼--웹앱-서비스-개발-리더">임종주 | 데이터
-플랫폼 · 웹/앱 서비스 개발 리더</h1>
-<p>엔씨소프트 데이터플랫폼 조직에서 15년 1개월간 데이터 수집·DW/DM·ETL과
-웹 서비스 개발을 연결해 왔습니다. Python·Django API와 React·Next.js
-화면을 직접 구현하고 SBoard 경영 정보 포털의 두 차례 대규모 개편을
-주도했습니다. MONKEY 장애 모니터링 자동화 플랫폼의 PM·PL, NOW 글로벌
-실시간 모니터링의 PL로 기획·개발·운영을 이끌었습니다. 최근에는
-PLUTUS·TokenWatch·AJECT 웹 서비스와 모바일·서버 연동형 StarManager를
-개발하고 있습니다. 육군 장교 복무와 사내 교육 경험을 바탕으로 직접
-만드는 리더십을 발휘합니다.</p>
-<p><a href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오와 화면
-보기 →</a> · <a
-href="https://ifreeda7.github.io/career_history.html">경력기술서</a> ·
-<a href="https://ifreeda7.github.io/resume.html">웹 이력서</a> · <a
-href="https://ifreeda7.github.io/resume.pdf">PDF 이력서</a></p>
-<h2 id="경력">경력</h2>
-<p><strong>엔씨소프트 | 2009.10.19–2024.12.15 | 15년 1개월</strong></p>
-<p>CTO 산하 데이터플랫폼실 데이터서비스개발팀 및
-데이터프로덕트개발팀</p>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="임종주 이력서 · Data Engineering &amp; Digital Products"><title>임종주 | 이력서 · Data Engineering &amp; Digital Products</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/documents.css"></head><body class="resume-document"><header class="topbar"><div class="topbar-inner"><a class="brand" href="/">JONGJU.LIM</a><nav aria-label="자료 메뉴"><a href="resume.html" aria-current="page">이력서</a><a href="career_history.html">경력기술서</a><a href="/#work">포트폴리오</a></nav></div></header><section class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">DATA ENGINEERING &amp; DIGITAL PRODUCTS</span><h1>임종주 · 이력서</h1><p>데이터 수집부터 API·웹 화면, 제품 개발과 운영까지 이어온 경력입니다.</p><div class="hero-actions"><a href="resume.pdf" download>이력서 PDF 다운로드 ↓</a><a href="/#work">프로젝트 포트폴리오 ↗</a></div></div><img class="hero-photo" src="assets/jongju-lim-portrait.jpg" alt="임종주 프로필 사진" width="229" height="294"></div></section><div class="layout"><aside class="sidebar" aria-label="섹션 바로가기"><strong>CONTENTS</strong><a href="#제품을-만드는-방식">제품을 만드는 방식</a><a href="#핵심-역량">핵심 역량</a><a href="#경력">경력</a><a href="#최근-제품-개발">최근 제품 개발</a><a href="#기술">기술</a><a href="#학력과-기타-경험">학력과 기타 경험</a><a href="#연락">연락</a></aside><main class="resume" id="main"><h1 class="document-title" id="임종주--이력서">임종주 | 이력서</h1>
+<p>사용자의 불편을 데이터와 서비스로 해결해 온 개발자이자 프로젝트
+리드입니다. 엔씨소프트 데이터플랫폼 조직에서 15년 1개월간 데이터
+수집·DW/DM·ETL, API와 웹 화면을 개발·운영했습니다. 운영자의 장애 확인,
+게임 사업부의 실시간 상황 파악, 경영진의 지표 조회를 위한 제품을
+만들었고, 최근에는 PLUTUS 금융 데이터 서비스와 TokenWatch·AJECT를 공개해
+운영하고 있습니다.</p>
+<p><a href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오</a> ·
+<a href="https://ifreeda7.github.io/career_history.html">상세
+경력기술서</a> · <a
+href="https://ifreeda7.github.io/resume.pdf">이력서·경력기술서
+PDF</a></p>
+<h2 id="제품을-만드는-방식">제품을 만드는 방식</h2>
+<p><strong>Data Engineering &amp; Digital Products — 기획 · 개발 ·
+운영</strong></p>
+<p>모호한 요구를 사용자와 함께 정리하고, 원천 데이터부터
+적재·집계·API·화면까지 따라가며 원인을 찾는 일을 즐깁니다. 현업과
+개발자가 같은 문제를 이해하도록 설명하고, 피드백을 실제 동작과 사용
+흐름으로 바꾸는 것이 강점입니다. 데이터가 발생하는 지점부터 API와 웹
+화면까지 직접 개발한 경험을 바탕으로 고객 문제와 기술적 제약을 함께
+이해하며 우선순위를 정합니다.</p>
 <h2 id="핵심-역량">핵심 역량</h2>
 <ul>
-<li><strong>프로젝트 리더십</strong>: MONKEY(장애 모니터링 자동화
-플랫폼) PM·PL 및 NOW PL, 기능 우선순위·로드맵 수립, 유관 부서 요구 조율,
-후속 개발·운영 인력 리딩과 사내 교육</li>
-<li><strong>웹·앱 서비스 개발</strong>: 서비스 기획·정보 구조·사용자
-화면, Python·Django API와 React·Next.js·TypeScript 프론트엔드 구현,
-모바일·서버 연동 프로젝트 개발</li>
-<li><strong>데이터 수집과 ETL</strong>: 빌링·웹로그·인게임 로그 수집 및
-정제, 정기·비정기 적재, Informatica·SSIS·Python 기반 파이프라인 구축과
-운영</li>
-<li><strong>데이터 모델링과 SQL</strong>: Star/Snowflake 기반 DW·데이터
-마트 설계, 차원 데이터 관리 자동화, Oracle·SQL Server 쿼리 및 테이블
-설계·최적화</li>
-<li><strong>실시간 데이터 처리</strong>: Spark·Kafka 기반 로그
-수집·처리, Druid 기반 저지연 조회 환경 구축 참여, Hive 기반 데이터
-활용</li>
-<li><strong>품질 관리와 운영 자동화</strong>: 적재 품질·장애 모니터링,
-TV·웹 대시보드와 SMS·이메일 알림 통합, 운영자 피드백 기반 개선</li>
-<li><strong>제품 운영과 BI</strong>: 인증·권한, 문의·알림, 배포·장애
-대응을 포함한 서비스 운영, Cognos·Tableau 기반 KPI 리포팅</li>
+<li><strong>프로젝트 리딩:</strong> 사용자 인터뷰, 요구사항 분석, 기능
+우선순위 조율, 화면 기획, 개발·운영과 후속 인력의 업무 정착.</li>
+<li><strong>고객 경험:</strong> 메일 기반 장애 확인을 통합 화면·알림으로
+전환하고, 실시간 게임 데이터의 필터·추적·플레이백 경험을 설계.</li>
+<li><strong>웹 서비스 개발:</strong> Python·Django API,
+React·Next.js·TypeScript 화면, 인증·권한, 문의·알림과 운영 자동화.</li>
+<li><strong>데이터 엔지니어링:</strong> 빌링·웹·인게임 로그 수집,
+DW/DM·ETL, SQL과 BI, Spark·Kafka 처리 및 Druid 조회 환경 설계.</li>
 </ul>
-<h2 id="리더십과-협업">리더십과 협업</h2>
-<p>MONKEY(장애 모니터링 자동화 플랫폼)의 PM·PL과 NOW의 PL로 사용자
-요구사항을 개발 과제로 구체화하고, 우선순위와 로드맵을 정리하며
-개발·운영을 리드했습니다. 전략기획실·사업부·운영자와 협업하고, 해외
-플랫폼 구축 문서화와 사내 교육을 통해 지식을 공유했습니다. 육군 장교로
-복무하고 중위로 전역한 경험을 바탕으로 책임과 보고·협업의 기본을
-중시합니다. 기술을 직접 이해하고 구현하면서 팀이 목표를 실행할 수 있도록
-이끄는 리더로 기여하겠습니다.</p>
-<p>육군 장교 복무 | 2005.11–2008.11 | 중위 전역</p>
+<h2 id="경력">경력</h2>
+<p><strong>엔씨소프트 | 2009.10.19–2024.12.15 | 15년 1개월</strong></p>
+<p>CTO 산하 데이터플랫폼실 · 데이터서비스개발팀 /
+데이터프로덕트개발팀</p>
 <ul>
-<li><strong>과제 정의와 실행 리딩</strong>: MONKEY(장애 모니터링 자동화
-플랫폼) PM·PL로 운영자 요구를 정리하고 기능 우선순위·로드맵과
-개발·운영을 리드했습니다.</li>
-<li><strong>이해관계자 조율과 변화 관리</strong>: 전략기획실·사업부와
-KPI·요구사항을 조율하고 SBoard(경영 정보 포털) 2회 개편을
-주도했습니다.</li>
-<li><strong>표준화와 지식 공유</strong>: 해외 지사 구축 문서화와 운영자
-교육, Hive·SQL 사내 강사 경험을 보유합니다.</li>
+<li>OASIS 데이터 정보 포털: 블레이드 앤 소울 론칭 시 <strong>40건 이상의
+대시보드·통계 보고서</strong> 제공.</li>
+<li>글로벌 데이터 플랫폼: <strong>NCW·NCT·NCJ 3개 지사</strong>의 데이터
+표준화, DW·ETL·BI 설계와 교육.</li>
+<li>SBoard 경영 정보 포털: 데이터 모델·API·화면 개발 및 <strong>2회
+대규모 개편</strong> 주도.</li>
+<li>MONKEY 장애 모니터링 자동화: 운영자 인터뷰부터 통합
+대시보드·알림·운영 자동화까지 구현.</li>
+<li>NOW 글로벌 실시간 모니터링: 실시간 로그 조회와 유저 트래킹·플레이백,
+React→Next.js 개편 리드.</li>
 </ul>
-<h2 id="데이터-플랫폼-리더-관점">데이터 플랫폼 리더 관점</h2>
-<p>데이터 플랫폼 조직에서 원천 수집·ETL·DW/DM·집계·실시간 서비스와
-운영을 이어온 경험을 바탕으로, 새로운 플랫폼을 시작할 때
-<strong>비즈니스가 실제로 사용하는 데이터 제품과 지표</strong>를 먼저
-정합니다. 그다음 수집·저장·정제·제공 경로의 정합성, 재처리, 모니터링,
-소유자와 접근 권한을 함께 설계하는 접근을 제안합니다. 이는 향후 구축
-방향이며 특정 클라우드·레이크하우스 제품의 직접 구축 실적으로 기재하지
-않습니다.</p>
-<p><a
-href="https://plutus.ai.kr/2026/10/22/aject-data-platform-architecture-90-days/">초기
-데이터 플랫폼 구축 참조 아키텍처와 90일 로드맵</a> · AJECT
-기술블로그</p>
-<h2 id="주요-프로젝트">주요 프로젝트</h2>
-<h3 id="oasis--데이터-정보-포털--원천-데이터-수집dwetl">OASIS — 데이터
-정보 포털 | 원천 데이터 수집·DW·ETL</h3>
-<p>2010–2016 | 데이터 모델링 · ETL 개발 · 대시보드 개발 및 운영</p>
-<p>빌링·웹로그·인게임 로그 등 서로 다른 원천 데이터를 공통 지표와 통계로
-제공해야 했습니다.</p>
+<h2 id="최근-제품-개발">최근 제품 개발</h2>
+<h3 id="plutus--금융-지표매매-분석-서비스">PLUTUS | 금융 지표·매매 분석
+서비스</h3>
+<p>경제 지표 대시보드와 조건검색·종목 분석·매매일지를 연결한 웹 서비스를
+개발해 공개했습니다. 로그인에 앞서 서비스 가치와 무료 이용을 안내하는
+공개 소개 페이지를 마련했으며, 지표 기준일과 수집 시각·누락·지연을
+구분하는 개선 과제를 정의했습니다. MCP·Report API·WordPress를 연결한
+보고서 전달 흐름도 구현했습니다.</p>
+<p><a href="https://macro.plutus.ai.kr/">PLUTUS 매크로</a> · <a
+href="https://trade.plutus.ai.kr/">PLUTUS 매매 분석</a></p>
+<h3 id="tokenwatch--ai-모델-가격-비교">TokenWatch | AI 모델 가격
+비교</h3>
+<p>AI 모델의 API 토큰 가격·월 구독료·무료 이용 범위와 성능을 비교하는 웹
+서비스를 개발·배포했습니다. 모델 버전과 요금 기준을 구분해 비교할 수
+있도록 구성했습니다.</p>
+<p><a href="https://tokenwatch.aject.co.kr/">서비스 보기</a></p>
+<h3 id="aject--기업-웹-서비스">AJECT | 기업 웹 서비스</h3>
+<p>Next.js·PostgreSQL 기반 회사 웹과 문의 관리·관리자 화면·이메일 알림을
+구축했습니다. Ubuntu·Nginx·systemd 환경에서 배포·운영합니다.</p>
+<p><a href="https://aject.co.kr/">서비스 보기</a></p>
+<h2 id="기술">기술</h2>
+<table>
+<thead>
+<tr class="header">
+<th>영역</th>
+<th>기술과 경험</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>웹·API</td>
+<td>Python, Django, React, Next.js, JavaScript, TypeScript</td>
+</tr>
+<tr class="even">
+<td>데이터 수집·가공</td>
+<td>SQL, Python, Java, Informatica, SSIS, DW/DM</td>
+</tr>
+<tr class="odd">
+<td>실시간 데이터</td>
+<td>Spark, Kafka, Druid, Hive</td>
+</tr>
+<tr class="even">
+<td>저장소·BI</td>
+<td>Oracle, SQL Server, PostgreSQL, Cognos, Tableau</td>
+</tr>
+<tr class="odd">
+<td>서비스 운영</td>
+<td>Ubuntu, Nginx, systemd, 관리자 화면, 알림·배포</td>
+</tr>
+</tbody>
+</table>
+<h2 id="학력과-기타-경험">학력과 기타 경험</h2>
 <ul>
-<li>요구사항 분석부터 원천 데이터 수집·정제, DW/DM 모델링, ETL 개발과 BI
-제공까지 데이터 처리 흐름을 구축했습니다.</li>
-<li>정기·비정기 적재를 관리하고 데이터 품질 모니터링과 장애 대응을
-수행했습니다. Oracle·SQL Server 기반 쿼리 최적화와 테이블 설계도
-담당했습니다.</li>
-<li>게임 XML 구조를 활용해 차원 데이터를 자동 갱신하는 시스템을
-Python·Java로 개발했습니다.</li>
-</ul>
-<p><strong>성과:</strong> 블레이드 앤 소울 2012년 론칭 데이터 담당자로
-참여해 40건 이상의 대시보드·통계 보고서를 기한 내 제공했습니다.</p>
-<p>주요 기술: Python · Java · Oracle · SQL Server · Cognos · Tableau</p>
-<h3
-id="글로벌-데이터-플랫폼--해외-3개-지사의-데이터-표준화와-분석-환경-구축">글로벌
-데이터 플랫폼 — 해외 3개 지사의 데이터 표준화와 분석 환경 구축</h3>
-<p>2010 · 2014 · 2019 | 플랫폼 설계 및 구축 참여 · 데이터 표준화 ·
-문서화</p>
-<p>해외 지사의 서로 다른 데이터·인프라 환경에서도 본사와 일관된 지표를
-제공해야 했습니다.</p>
-<ul>
-<li>NCW·NCT·NCJ의 데이터 플랫폼 구축에 참여해 현지 서버·스토리지·DB
-요구사항을 조사하고 아키텍처 및 도입 문서를 작성했습니다.</li>
-<li>공통 KPI와 로그 기준을 바탕으로 데이터 항목을 정의하고,
-다국어·타임존·현지 BI 요구를 고려해 DW 및 ETL을 설계했습니다.</li>
-<li>BI 환경과 초기 리포트 템플릿을 구성하고 운영자 교육을 수행했습니다.
-NCT 구축에서는 문서화를 담당했습니다.</li>
-</ul>
-<p><strong>성과:</strong> 해외 3개 지사의 로그·운영 데이터를 본사
-기준으로 활용할 수 있도록 데이터 표준과 분석 환경을 구축했습니다.</p>
-<p>주요 기술: DW/DM · ETL · Cognos · Tableau</p>
-<p><img
-src="https://ifreeda7.github.io/assets/global-data-platform-concept.jpg"
-alt="글로벌 데이터 플랫폼 경력 설명용 재구성 시안" /></p>
-<p><em>경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 화면
-구성과 상태 표시는 예시입니다.</em></p>
-<h3 id="now--글로벌-실시간-인게임-데이터-모니터링">NOW — 글로벌 실시간
-인게임 데이터 모니터링</h3>
-<p>2019–2024 | PL · 데이터 설계 및 메인 개발 · 기획 참여</p>
-<p>정기 집계로 확인하던 게임 운영 현황을 실시간으로 조회하고 이상 상황에
-대응할 수 있어야 했습니다.</p>
-<ul>
-<li>Spark·Kafka 기반 대용량 로그 수집·처리와 Druid 기반 저지연 조회 환경
-구축에 참여하고 실시간 데이터 구조·파이프라인을 설계했습니다.</li>
-<li>사업부와 요구사항을 구체화하고 다중 필터, 유저 트래킹, 이상 현상
-알림과 플레이백 기능을 포함한 운영 대시보드를 구현했습니다.</li>
-<li>React 초기 구축과 Next.js 개편 과정에서 프로젝트 개발을 리드하고
-데이터 조회와 화면 이용 흐름을 함께 개선했습니다.</li>
-</ul>
-<p><strong>성과:</strong> 실시간 게임 로그를 운영 지표와 연결해 유관
-부서가 현황을 확인하고 대응할 수 있는 환경을 제공했습니다.</p>
-<p>주요 기술: Spark · Kafka · Druid · React · Next.js</p>
-<p><img src="https://ifreeda7.github.io/assets/now-concept.jpg"
-alt="NOW 글로벌 실시간 게임 데이터 모니터링 경력 설명용 재구성 시안" /></p>
-<p><em>경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 화면
-구성과 상태 표시는 예시입니다.</em></p>
-<h3 id="monkey--장애-모니터링-자동화-플랫폼">MONKEY — 장애 모니터링
-자동화 플랫폼</h3>
-<p>2017–2024 | PM · PL · 메인 개발 · 운영</p>
-<p>메일에 분산된 적재 장애 정보를 운영자가 통합해서 확인하기
-어려웠습니다.</p>
-<ul>
-<li>운영자 인터뷰로 기존 모니터링의 한계를 분석하고, 적재 품질 확인과
-장애 알림을 통합한 플랫폼을 기획·개발했습니다.</li>
-<li>관리자 웹과 사무실 TV 대시보드, SMS·이메일 알림을 구축해 운영 상황을
-한곳에서 확인하도록 개선했습니다.</li>
-<li>사용자 피드백을 반영해 반복 운영 업무를 자동화하고, 후속 개발·운영
-인력이 참여하는 확장 과정에서 리딩을 수행했습니다.</li>
-</ul>
-<p><strong>성과:</strong> 메일 중심의 모니터링을 대시보드와 통합 알림
-중심으로 전환하고 데이터 조직의 공통 운영 시스템으로 정착시켰습니다.</p>
-<p>주요 기술: 데이터 품질 관리 · 운영 자동화 · 웹 대시보드 ·
-SMS/Email</p>
-<p><img src="https://ifreeda7.github.io/assets/monkey-concept.jpg"
-alt="MONKEY 장애 모니터링 자동화 플랫폼 경력 설명용 재구성 시안" /></p>
-<p><em>경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며
-날짜·수치는 예시입니다.</em></p>
-<h3 id="sboard--경영-정보-포털">SBoard — 경영 정보 포털</h3>
-<p>2016–2024 | 서비스 기획 · 데이터 설계 · 풀스택 개발 및 운영</p>
-<p>분산된 경영 데이터를 경영진과 전략기획실이 일관된 지표로 확인할 수
-있어야 했습니다.</p>
-<ul>
-<li>전략기획실과 KPI를 정의하고 실시간 접속·매출·목표 달성 현황을
-제공하는 데이터 모델과 API를 설계했습니다.</li>
-<li>Django API와 React 웹 대시보드를 구현하고 데이터 표준화, ETL
-최적화와 캐싱을 적용했습니다.</li>
-<li>두 차례의 대규모 개편을 주도하고 권한 관리·암호화·보안 감사 대응을
-포함해 서비스를 운영했습니다.</li>
-</ul>
-<p><strong>성과:</strong> 데이터 처리부터 경영진이 이용하는 화면까지
-연결하고, 2회의 대규모 개편으로 지표 체계와 사용성을 개선했습니다.</p>
-<p>주요 기술: Python · Django · React · ETL · 캐싱</p>
-<p><img src="https://ifreeda7.github.io/assets/sboard-concept.jpg"
-alt="SBoard 경영 정보 포털 경력 설명용 재구성 시안" /></p>
-<p><em>경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며
-날짜·수치는 예시입니다.</em></p>
-<h2 id="개인-프로젝트">개인 프로젝트</h2>
-<h3 id="plutus-매크로-대시보드">PLUTUS 매크로 대시보드</h3>
-<p>개인 서비스 개발 및 운영 개선</p>
-<p>금융·경제 지표를 모아 시각화하는 서비스를 개발하고 있습니다. 데이터
-출처별 갱신 주기, 지표 기준일과 수집 시각의 차이, 누락·지연 표시를 주요
-개선 과제로 다루고 있습니다.</p>
-<p><a href="https://macro.plutus.ai.kr/">서비스 링크</a></p>
-<h3 id="mcp-기반-보고서-시스템-연동">MCP 기반 보고서 시스템 연동</h3>
-<p>연동 구현 및 개선</p>
-<p>자체 MCP와 Report API, WordPress를 연결해 AI 도구에서 보고서·콘텐츠를
-전달하는 흐름을 구성했습니다. 인증과 시스템 간 데이터 전달, 초안 처리 등
-외부 서비스 연동 경험을 확장하고 있습니다.</p>
-<p><a href="https://plutus.ai.kr/">서비스 링크</a></p>
-<h3 id="plutus-매매-분석-대시보드">PLUTUS 매매 분석 대시보드</h3>
-<p>개발 및 운영 개선</p>
-<p>조건검색식과 종가베팅 후보, 거래대금·수급 현황, 전략 설정과 성과 확인
-화면을 개발하고 있습니다. 시장 데이터를 수집·가공하여 실제 분석 흐름에
-맞게 표시하고 운영 과정의 오류를 개선하고 있습니다.</p>
-<p><a href="https://trade.plutus.ai.kr/">서비스 링크</a></p>
-<h3 id="tokenwatch--ai-가격-비교">TokenWatch — AI 가격 비교</h3>
-<p>개발 및 운영</p>
-<p>AI 모델의 API 토큰 가격, 월 구독료, 무료 이용 범위와 성능 정보를 한
-화면에서 비교하는 서비스를 개발·운영하고 있습니다. 가격과 기능의 기준을
-명확히 제시하는 데이터 구조와 화면을 다듬고 있습니다.</p>
-<p><a href="https://tokenwatch.aject.co.kr/">서비스 링크</a></p>
-<h3 id="aject-웹-서비스">AJECT 웹 서비스</h3>
-<p>배포 및 운영</p>
-<p>Next.js·PostgreSQL 기반 웹 서비스와 문의 관리·이메일 알림을 구성하고
-Ubuntu·Nginx·systemd 환경에서 배포·운영하고 있습니다.</p>
-<p><a href="https://aject.co.kr/">서비스 링크</a></p>
-<h3 id="ai-음악영상-콘텐츠-제작">AI 음악·영상 콘텐츠 제작</h3>
-<p>프로젝트 수행</p>
-<p>생성형 AI를 활용해 음악과 영상 콘텐츠를 기획·제작합니다. 화성시를
-소재로 한 AI CM송 ‘화성 가자!’를 제작해 공개했으며, 장면 구성과
-이미지·영상 제작 과정을 경험했습니다.</p>
-<p><a href="https://www.youtube.com/watch?v=wcWK-Up_-Wg">공개
-작품</a></p>
-<h3 id="starmanager">StarManager</h3>
-<p>개발 중</p>
-<p>모바일·서버 연동과 일정·미션 중심의 자녀 관리 프로젝트를 진행하고
-있습니다. AI 도구를 활용해 요구사항을 구체화하고 실행 결과 검증, 오류
-수정과 배포를 수행합니다.</p>
-<h2 id="교육과-학력">교육과 학력</h2>
-<ul>
+<li>고려대학교 컴퓨터학 학사 · 아주대학교 정보통신대학원 IoT 석사</li>
 <li>Hive·SQL 사내 강사, 2016–2018</li>
-<li>고려대학교 컴퓨터학 학사</li>
-<li>아주대학교 정보통신대학원 IoT 전공 석사</li>
-<li>정보처리산업기사</li>
+<li>육군 장교 복무, 2005.11–2008.11 · 중위 전역</li>
 </ul>
 <h2 id="연락">연락</h2>
-<p><a href="https://github.com/ifreeda7">GitHub</a> · <a
-href="mailto:plutusj@kakao.com">Email</a> · <a
-href="https://aject.co.kr/">AJECT</a></p>
-</main></div>
-<p class="endnote">기업 프로젝트 화면 이미지는 경력 설명용 재구성 시안입니다. 실제 사내 운영 화면이 아니며 데이터와 상태 표시는 예시입니다.</p>
-</body></html>
+<p><a href="mailto:plutusj@kakao.com"><span>plutusj@kakao.com</span></a>
+· <a href="https://github.com/ifreeda7">GitHub</a> · <a
+href="https://ifreeda7.github.io/#work">프로젝트 포트폴리오</a></p>
+</main></div></body></html>
